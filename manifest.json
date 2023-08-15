@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "description": "lorem ipsum",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "pwa-test-orpin.vercel",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "pwa-test-orpin.vercel",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "books",
+    "education"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [
+    {
+      "name": "Main",
+      "url": "https://pwa-test-orpin.vercel.app/",
+      "description": "asd"
+    }
+  ]
+}
