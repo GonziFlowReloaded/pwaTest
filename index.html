@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="manifest" href="./manifest.json">
     <title>Document</title>
 </head>
 <body>
     <img src="data:image/png;base64,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">
-    <script src="pwabuilder-sw.js"></script>
+    <script>
+    if ("serviceWorker" in navigator) {
+        // Register a service worker hosted at the root of the
+        // site using the default scope.
+        navigator.serviceWorker.register("/sw.js").then(
+          (registration) => {
+            console.log("Service worker registration succeeded:", registration);
+          },
+          (error) => {
+            console.error(`Service worker registration failed: ${error}`);
+          },
+        );
+      } else {
+        console.error("Service workers are not supported.");
+      }
+      </script>
+    
 </body>
 </html>l
