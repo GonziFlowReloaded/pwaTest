@@ -14,7 +14,11 @@
     "education"
   ],
   "screenshots": [],
-  "icons": [],
+  "icons": [{
+    "src": "foo.png",
+    "sizes": "512x512",
+    "type": "image/webp"
+}],
   "shortcuts": [
     {
       "name": "Main",
